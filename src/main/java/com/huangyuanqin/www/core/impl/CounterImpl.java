@@ -179,7 +179,7 @@ public class CounterImpl implements Counter {
         String regexAnnotationStart = "\\s*/\\x2A.*";
         String regexAnnotationEnd = "\\s*\\x2A/.*";
 
-        Long count = 0L;
+        long count = 0L;
         FileReader fileReader = null;
         BufferedReader bufferedReader = null;
         try {
